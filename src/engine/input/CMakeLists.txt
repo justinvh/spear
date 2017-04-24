@@ -1,0 +1,1 @@
+add_library(input SHARED input.cc)

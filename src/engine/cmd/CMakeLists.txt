@@ -1,0 +1,1 @@
+add_library(cmd SHARED cmd.cc)

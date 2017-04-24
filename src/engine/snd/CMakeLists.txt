@@ -1,0 +1,1 @@
+add_library(snd SHARED snd.cc)
