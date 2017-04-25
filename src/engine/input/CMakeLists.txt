@@ -1,1 +1,1 @@
-add_library(input SHARED input.cc)
+add_library(input input.cc)

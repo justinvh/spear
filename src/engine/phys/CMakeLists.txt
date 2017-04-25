@@ -1,1 +1,1 @@
-add_library(phys SHARED phys.cc)
+add_library(phys phys.cc)

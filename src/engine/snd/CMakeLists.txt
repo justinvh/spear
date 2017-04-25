@@ -1,1 +1,1 @@
-add_library(snd SHARED snd.cc)
+add_library(snd snd.cc)

@@ -1,2 +1,2 @@
-add_library(file SHARED file.cc)
+add_library(file file.cc)
 export(TARGETS file FILE ${PROJECT_NAME}-exports.cmake)

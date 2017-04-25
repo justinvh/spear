@@ -1,1 +1,1 @@
-add_library(net SHARED net.cc)
+add_library(net net.cc)

@@ -1,1 +1,1 @@
-add_library(gfx SHARED gfx.cc)
+add_library(gfx gfx.cc)

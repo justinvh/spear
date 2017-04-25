@@ -1,3 +1,10 @@
+find_package(SDL2 REQUIRED)
+find_package(VulkanSDK REQUIRED)
+find_package(Spdlog REQUIRED)
+
+include_directories(${SDL2_INCLUDE_DIR})
+include_directories(${VULKANSDK_INCLUDE_DIR})
+include_directories(${SPDLOG_INCLUDE_DIR})
 include_directories(include)
 
 add_subdirectory(cmd)
@@ -10,4 +17,4 @@ add_subdirectory(phys)
 add_subdirectory(snd)
 
 add_executable(spear main.cc)
-target_link_libraries(spear cmd)
+target_link_libraries(spear cmd gui)
